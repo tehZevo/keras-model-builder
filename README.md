@@ -7,3 +7,4 @@ Uses [Google python-fire](https://github.com/google/python-fire)
 * VAE
 * document usage
 * LSTM
+* suppress "help" output being printed after running

@@ -112,7 +112,7 @@ class Builder:
     return self
 
   def summary(self):
-    print(self.model.summary())
+    self.model.summary()
     return self
 
 if __name__ == '__main__':
