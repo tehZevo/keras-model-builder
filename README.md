@@ -6,3 +6,4 @@ Uses [Google python-fire](https://github.com/google/python-fire)
 ## TODO
 * VAE
 * document usage
+* LSTM
