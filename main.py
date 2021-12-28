@@ -107,7 +107,7 @@ class Builder:
     self.model.compile(loss=loss, optimizer=opt)
     return self
 
-  def save(self, path="model.h5"):
+  def save(self, path="models/model.h5"):
     self.model.save(path)
     return self
 
