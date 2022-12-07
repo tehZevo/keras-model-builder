@@ -1,7 +1,7 @@
-from tensorflow.keras.layers import *
-from tensorflow.keras.models import *
-from tensorflow.keras.optimizers import *
-from tensorflow.keras import optimizers
+from keras.layers import *
+from keras.models import *
+from keras.optimizers import *
+from keras import optimizers
 import numpy as np
 import fire
 
@@ -114,6 +114,9 @@ class Builder:
   def summary(self):
     self.model.summary()
     return self
+
+  def end(self):
+    pass
 
 if __name__ == '__main__':
   fire.Fire(Builder)
